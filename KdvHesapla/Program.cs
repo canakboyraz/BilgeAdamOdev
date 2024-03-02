@@ -15,7 +15,7 @@ Console.WriteLine("KDV li fiyat: " + kdv);
 
 // Klavyeden kullanıcı tarafından dik kenarları girilen bir üçgenin alanını hesaplayan program. - yapıldı
 
-// Klavyeden kullanıcı tarafından paraMiktari cinsinden para miktarını, yine kullanıcı tarafından girilen Euro ve Dolar kuruna göre paraMiktari'nin kaç Euro ve kaç Dolar olduğunu bulan programı yazınız.
+// Klavyeden kullanıcı tarafından paraMiktari cinsinden para miktarını, yine kullanıcı tarafından girilen Euro ve Dolar kuruna göre paraMiktari'nin kaç Euro ve kaç Dolar olduğunu bulan programı yazınız. - yapıldı
 
 // Örnek - Üç farklı türün toplanarak başka bir değişkene atamasını yapınız
 
