@@ -25,3 +25,5 @@ else
 {
     Console.WriteLine($"\n'{harf}' karakteri {metin} ifadesinde bulunmamaktadır.");
 }
+
+//split metodu her boşluk sonrası oluşan kelimeleri dizilere atıyor.
