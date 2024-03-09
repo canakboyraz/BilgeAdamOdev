@@ -93,19 +93,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringMetot10", "StringMeto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringMetot9", "StringMetot9\StringMetot9.csproj", "{A011980C-EB23-4B08-B4D3-D4FBA86145AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatsOrnek", "MatsOrnek\MatsOrnek.csproj", "{9E24AA88-F8D1-49A9-8EA7-35C9DDCECC75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatsOrnek", "MatsOrnek\MatsOrnek.csproj", "{9E24AA88-F8D1-49A9-8EA7-35C9DDCECC75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathOrnek2", "MathOrnek2\MathOrnek2.csproj", "{7DCB7B18-3EDF-4384-BE23-29D9C7AE835A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathOrnek2", "MathOrnek2\MathOrnek2.csproj", "{7DCB7B18-3EDF-4384-BE23-29D9C7AE835A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathOrnek3", "MathOrnek3\MathOrnek3.csproj", "{27191E24-2BD6-4DBF-9BEB-B0BAB35B7122}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathOrnek3", "MathOrnek3\MathOrnek3.csproj", "{27191E24-2BD6-4DBF-9BEB-B0BAB35B7122}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathOrnek4", "MathOrnek4\MathOrnek4.csproj", "{99F35961-F9D0-4B4F-9E63-9656F9DC2190}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathOrnek4", "MathOrnek4\MathOrnek4.csproj", "{99F35961-F9D0-4B4F-9E63-9656F9DC2190}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTimeOrnek", "DataTimeOrnek\DataTimeOrnek.csproj", "{3B0B2C93-944E-4C0C-A84F-D4695C4C94B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTimeOrnek", "DataTimeOrnek\DataTimeOrnek.csproj", "{3B0B2C93-944E-4C0C-A84F-D4695C4C94B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeOrnek2", "DateTimeOrnek2\DateTimeOrnek2.csproj", "{070317F8-DAD4-4F3E-9289-ECD8DC4E0D96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTimeOrnek2", "DateTimeOrnek2\DateTimeOrnek2.csproj", "{070317F8-DAD4-4F3E-9289-ECD8DC4E0D96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeOrnek3", "DateTimeOrnek3\DateTimeOrnek3.csproj", "{90C0A1CF-DD61-42F7-AC84-CF146F8151AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTimeOrnek3", "DateTimeOrnek3\DateTimeOrnek3.csproj", "{90C0A1CF-DD61-42F7-AC84-CF146F8151AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DizilerOrnek", "DizilerOrnek\DizilerOrnek.csproj", "{F3DD10F2-8AB5-4D7C-9795-8485C43F9DF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -321,6 +323,10 @@ Global
 		{90C0A1CF-DD61-42F7-AC84-CF146F8151AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90C0A1CF-DD61-42F7-AC84-CF146F8151AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90C0A1CF-DD61-42F7-AC84-CF146F8151AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3DD10F2-8AB5-4D7C-9795-8485C43F9DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3DD10F2-8AB5-4D7C-9795-8485C43F9DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3DD10F2-8AB5-4D7C-9795-8485C43F9DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3DD10F2-8AB5-4D7C-9795-8485C43F9DF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

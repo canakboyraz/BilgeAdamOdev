@@ -16,7 +16,6 @@ Console.WriteLine("Sistem zamanı: " + zaman1);
 * 3 Haziran           
 */
 
-
 DateTime tarih = new DateTime(2022, 6, 3);
 
 // 03.06.2022
