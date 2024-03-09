@@ -1,8 +1,9 @@
-﻿// 25 elemanlı bir integer dizisi tanımlayınız
+﻿/*
+// 25 elemanlı bir integer dizisi tanımlayınız
 
 int[] intDizi = new int[25];
 
-// 5 elemanlı string dizisi tnaımlayıp değer atınız
+// 5 elemanlı string dizisi tanımlayıp değer atınız
 
 string[] deger = new string[5] { "İstanbul", "Kocaeli", "Ankara", "Elazığ", "Antalya" };
 
@@ -24,11 +25,12 @@ int[] sayilar = new int[adet];
 
 for (int i = 0; i < adet; i++)
 {
-    Console.Write("{0}. sayıyı giriniz: ", i + 1);
+    Console.Write(i+1 +". sayıyı giriniz: ");
     sayilar[i] = Convert.ToInt32(Console.ReadLine());
 }
 
-int enBuyuk = sayilar[0];
+int enBuyuk = int.MinValue;
+
 for (int i = 1; i < adet; i++)
 {
     if (sayilar[i] > enBuyuk)
@@ -37,7 +39,7 @@ for (int i = 1; i < adet; i++)
     }
 }
 
-Console.WriteLine("En büyük sayı: {0}", enBuyuk);
+Console.WriteLine("En büyük sayı: ", enBuyuk);
 
 // Bir array içindeki tüm sayıları çarpan bir döngü yazalım.
 
@@ -54,7 +56,7 @@ Console.WriteLine("Sonuc: " + carpan);
 // 10 öğrenciden oluşan bir sınıfta öğrencilerin, programlamanın temelleri dersinden aldıkları notların toplamını ve ortalamasını bulan programı yazınız.
 
 int ogrenciSayi = 10;
-int[] notlar = new int[10];
+int[] notlar = new int[10]; // ogrenciSayi değişkenini vererek sayı değiştiği takdirde sorun yaşamamızı engelleyebiliriz.
 int toplam = 0;
 
 for (int i = 0; i < ogrenciSayi; i++)
@@ -70,5 +72,46 @@ foreach (int not in notlar)
 
 double ortalama = (double)toplam / ogrenciSayi;
 
-Console.WriteLine("Notların Toplamı: ", toplam);
-Console.WriteLine("Notların Ortalaması:", ortalama);
+Console.WriteLine("Notların Toplamı: " + toplam);
+Console.WriteLine("Notların Ortalaması:" + ortalama);
+*/
+
+
+
+// dizide bulunan 10 sayının küçükten büyüğe sıralamasını yapınız.
+int[] dizi = new int[10];
+
+for (int i = 0; i < dizi.Length; i++)
+{
+    Random rnd = new Random();
+    dizi[i] = rnd.Next(1, 101); // Rastgele sayı atama
+}
+
+foreach (int sayi in dizi)
+{
+    Console.Write(sayi + " ");
+}
+
+Console.WriteLine();
+
+int gecici;
+
+for (int i = 0; i < dizi.Length; i++)
+{
+    for (int j = 0; j < dizi.Length; j++)
+    {
+        if (dizi[i] < dizi[j])
+        {
+            gecici = dizi[j];
+            dizi[j] = dizi[i];
+            dizi[i] = gecici;
+        }
+    }
+}
+
+Console.WriteLine("Yeni Dizi");
+
+foreach (int sayi in dizi)
+{
+    Console.Write(sayi + " ");
+}
