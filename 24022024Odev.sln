@@ -117,23 +117,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetotlarOdev3", "MetotlarOd
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetotlarOdev4", "MetotlarOdev4\MetotlarOdev4.csproj", "{41B406D6-446D-4449-BFB1-C78AFEA5025E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar1", "Metotlar1\Metotlar1.csproj", "{E25900FA-0EBF-40D2-9BA7-1941AF367189}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar1", "Metotlar1\Metotlar1.csproj", "{E25900FA-0EBF-40D2-9BA7-1941AF367189}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar2", "Metotlar2\Metotlar2.csproj", "{AF6931BA-90C6-4A88-8273-29AADA794CAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar2", "Metotlar2\Metotlar2.csproj", "{AF6931BA-90C6-4A88-8273-29AADA794CAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar3", "Metotlar3\Metotlar3.csproj", "{7AA0C959-DFA0-4C7F-9917-A5E5D0737A41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar3", "Metotlar3\Metotlar3.csproj", "{7AA0C959-DFA0-4C7F-9917-A5E5D0737A41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar4", "Metotlar4\Metotlar4.csproj", "{D073F604-BA9B-4123-9751-3AB14F7D70F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar4", "Metotlar4\Metotlar4.csproj", "{D073F604-BA9B-4123-9751-3AB14F7D70F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar5", "Metotlar5\Metotlar5.csproj", "{41029C0C-DFBA-4560-A603-2C47093C494B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar5", "Metotlar5\Metotlar5.csproj", "{41029C0C-DFBA-4560-A603-2C47093C494B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar6", "Metotlar6\Metotlar6.csproj", "{BE133674-068E-4A02-9A8F-D3A08D061B8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar6", "Metotlar6\Metotlar6.csproj", "{BE133674-068E-4A02-9A8F-D3A08D061B8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar7", "Metotlar7\Metotlar7.csproj", "{0130F56C-50D5-4661-82DB-AF9D0DD6E5D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar7", "Metotlar7\Metotlar7.csproj", "{0130F56C-50D5-4661-82DB-AF9D0DD6E5D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar8", "Metotlar8\Metotlar8.csproj", "{345CC33F-4BD7-4B00-938F-1431F4342701}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar8", "Metotlar8\Metotlar8.csproj", "{345CC33F-4BD7-4B00-938F-1431F4342701}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar9", "Metotlar9\Metotlar9.csproj", "{908BFDD4-B9AB-4811-B9F4-EF4A50A89A51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar9", "Metotlar9\Metotlar9.csproj", "{908BFDD4-B9AB-4811-B9F4-EF4A50A89A51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassOdev", "ClassOdev\ClassOdev.csproj", "{E9A4F648-790F-448C-B6D9-575117081485}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -405,6 +407,10 @@ Global
 		{908BFDD4-B9AB-4811-B9F4-EF4A50A89A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{908BFDD4-B9AB-4811-B9F4-EF4A50A89A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{908BFDD4-B9AB-4811-B9F4-EF4A50A89A51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9A4F648-790F-448C-B6D9-575117081485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9A4F648-790F-448C-B6D9-575117081485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9A4F648-790F-448C-B6D9-575117081485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9A4F648-790F-448C-B6D9-575117081485}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
