@@ -1,30 +1,31 @@
 ﻿// Class Odev
 
 using ClassOdev;
-
-Console.WriteLine("Yas giriniz:");
-int.TryParse(Console.ReadLine(), out int yasDegeri);
-
 Takım takım = new Takım();
 
-takım.TakımAdı = "Beşiktaş";
-takım.TakımSayisi = 5;
-takım.Yas = yasDegeri;
+Console.WriteLine("Yas giriniz:");
+takım.Yas = Convert.ToInt32(Console.ReadLine());
+takım.TakımAdı = "A Takımı";
 
 try
 {
     takım.YasKontrol();
     Console.WriteLine("Yaşın uygun diğer bilgileri girmelisin:");
+
     Console.WriteLine("Ad: ");
     takım.Ad = Console.ReadLine();
-    Console.WriteLine("SoyAd: ");
+    Console.WriteLine("Soyad: ");
     takım.Soyad = Console.ReadLine();
-    
-    Console.WriteLine("Ad: {0}, Soyad: {1}, Yaş: {2}",takım.Ad,takım.Soyad,takım.Yas1);
+
+    Console.WriteLine("Notun");
+    takım.NotSayisi = Convert.ToInt32(Console.ReadLine());
+    takım.TakımNotKontrol();
+
+    takım.EkranaYaz();
 }
 catch (Exception e)
 {
-   Console.WriteLine("Hata "+e.Message);
+   Console.WriteLine("Hatalı işlem: "+e.Message);
 }
 
 
