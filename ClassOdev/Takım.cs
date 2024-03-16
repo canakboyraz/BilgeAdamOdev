@@ -8,11 +8,11 @@ namespace ClassOdev
 {
     internal class Takım
     {
-        public int NotSayisi { get; set; }
+        public int PersonelSayisi { get; set; }
         public string Ad { get; set; }
         public string Soyad { get; set; }
 
-        public string TakımAdı { get; set; }
+        public string BirimAdı { get; set; }
 
         private int _yas;
 
@@ -34,24 +34,21 @@ namespace ClassOdev
             }
         }
 
-        public void TakımNotKontrol()
+        public void PersonelSayıKontrol()
         {
-            if (NotSayisi >= 50)
+            if (PersonelSayisi >= 10)
             {
-                Console.WriteLine("Tebrikler Başarılı!");
+                Console.WriteLine("Personel İhtiyacı Kalmadı ");
             }
             else
             {
-                Console.WriteLine("Biraz gayret ! ");
+                Console.WriteLine("Eksik Personel: " + (10-PersonelSayisi) + " adet");
             }
         }
 
         public void EkranaYaz()
         {
-            Console.WriteLine("Ad: {0}, Soyad: {1}, Yaş: {2}, Takımı: {3}, Notu: {4}", Ad, Soyad, Yas, TakımAdı, NotSayisi);
+            Console.WriteLine("Ad: {0}, Soyad: {1}, Yaş: {2}, Birimi: {3}, Personel Sayısı: {4}", Ad, Soyad, Yas, BirimAdı, PersonelSayisi);
         }
-
-    }
-
-    
+    } 
 }

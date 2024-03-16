@@ -5,7 +5,8 @@ Takım takım = new Takım();
 
 Console.WriteLine("Yas giriniz:");
 takım.Yas = Convert.ToInt32(Console.ReadLine());
-takım.TakımAdı = "A Takımı";
+
+takım.BirimAdı = "İnsan Kaynakları";
 
 try
 {
@@ -17,9 +18,9 @@ try
     Console.WriteLine("Soyad: ");
     takım.Soyad = Console.ReadLine();
 
-    Console.WriteLine("Notun");
-    takım.NotSayisi = Convert.ToInt32(Console.ReadLine());
-    takım.TakımNotKontrol();
+    Console.WriteLine("Personel Sayısı");
+    takım.PersonelSayisi = Convert.ToInt32(Console.ReadLine());
+    takım.PersonelSayıKontrol();
 
     takım.EkranaYaz();
 }
@@ -28,9 +29,6 @@ catch (Exception e)
    Console.WriteLine("Hatalı işlem: "+e.Message);
 }
 
-
-//Console.WriteLine("Yas:" + takım.Yas);
-//Console.WriteLine("Yas1:" + takım.Yas1);
 
 
 

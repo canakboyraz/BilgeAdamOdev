@@ -137,7 +137,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar9", "Metotlar9\Meto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassOdev", "ClassOdev\ClassOdev.csproj", "{E9A4F648-790F-448C-B6D9-575117081485}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Params", "Params\Params.csproj", "{77E95F3B-7EF8-4A0C-A82B-1824D383A1CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Params", "Params\Params.csproj", "{77E95F3B-7EF8-4A0C-A82B-1824D383A1CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCKNDogrula", "TCKNDogrula\TCKNDogrula.csproj", "{7BB9BE4B-642D-44C6-93E6-FB8D8AB29D69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -417,6 +419,10 @@ Global
 		{77E95F3B-7EF8-4A0C-A82B-1824D383A1CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77E95F3B-7EF8-4A0C-A82B-1824D383A1CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77E95F3B-7EF8-4A0C-A82B-1824D383A1CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BB9BE4B-642D-44C6-93E6-FB8D8AB29D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB9BE4B-642D-44C6-93E6-FB8D8AB29D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB9BE4B-642D-44C6-93E6-FB8D8AB29D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB9BE4B-642D-44C6-93E6-FB8D8AB29D69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
